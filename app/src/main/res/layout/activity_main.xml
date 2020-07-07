@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="오늘의 자료리즘"
+        android:textColor="#E91ED5"
+        android:textSize="30dp"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_gravity="center"
+    android:text="어서오세요 :)"
+    android:textColor="#000000"
+    android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="(검색)"
+        android:textColor="#000000"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="(오늘의 개념)"
+        android:textColor="#000000"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        tools:context=".MainActivity">
+
+
+        <Button
+            android:id="@+id/btn_board"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="게시판"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn_data_struct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="자료구조"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn_algorithm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="알고리즘"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -23,19 +23,19 @@ public class algorithm extends AppCompatActivity implements View.OnClickListener
     public void onClick(View view) {
         switch(view.getId()) {
             case R.id.btn_al1:
-                startActivity(new Intent(this, ds1.class));
+                startActivity(new Intent(this, al1.class));
                 break;
             case R.id.btn_al2:
-                startActivity(new Intent(this, ds2.class));
+                startActivity(new Intent(this, al2.class));
                 break;
             case R.id.btn_al3:
-                startActivity(new Intent(this, ds3.class));
+                startActivity(new Intent(this, al3.class));
                 break;
             case R.id.btn_al4:
-                startActivity(new Intent(this, ds4.class));
+                startActivity(new Intent(this, al4.class));
                 break;
             case R.id.btn_al5:
-                startActivity(new Intent(this, ds5.class));
+                startActivity(new Intent(this, al5.class));
                 break;
         }
     }

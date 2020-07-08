@@ -11,9 +11,11 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class ds1 extends AppCompatActivity {
 
+    private FirebaseFirestore mStore = FirebaseFirestore.getInstance();
     private FirebaseDatabase database;
     private DatabaseReference databaseReference;
 
@@ -25,7 +27,7 @@ public class ds1 extends AppCompatActivity {
 
         //activity_ds1.xml의 텍스트뷰 연결
         final TextView tv_ds1;
-        tv_ds1 = (TextView)findViewById (R.id.tv_datastructure);
+        tv_ds1 = (TextView) findViewById(R.id.tv_datastructure);
 
         //파이어베이스 연동
         database = FirebaseDatabase.getInstance(); //DB연동

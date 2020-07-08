@@ -11,11 +11,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="80dp"
         android:layout_gravity="center"
         android:text="오늘의 자료리즘"
         android:textColor="#E91ED5"
-        android:textSize="30dp"/>
+        android:textSize="40dp"/>
 
     <TextView
     android:layout_width="wrap_content"
@@ -31,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_gravity="center"
-        android:text="(검색)"
+        android:text="자료구조를 찾으시나요?"
         android:textColor="#000000"
         android:textSize="30dp"/>
 
@@ -40,9 +41,35 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_gravity="center"
-        android:text="(오늘의 개념)"
+        android:text="도와줄 사람을 찾으시나요?"
         android:textColor="#000000"
         android:textSize="30dp"/>
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="알람설정"
+        android:layout_gravity="center"
+        android:textSize="25dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_search"
+            android:layout_marginLeft="100dp"
+
+            />
+        <Button android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="search"
+            android:textSize="25dp"/>
+    </LinearLayout>
 
     <LinearLayout
 
@@ -55,7 +82,7 @@
             android:id="@+id/btn_board"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="30dp"
             android:text="게시판"
             android:textSize="25dp" />
 
